@@ -35,13 +35,7 @@ export default function TimelineItem({
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"
       }`}
     >
-      <Image
-        src="/position-"
-        width={24}
-        height={24}
-        alt="current"
-        className="absolute -translate-x-[29px] sm:-translate-x-8 left-0"
-      />
+      
 
       <div className="grid grid-cols-5 sm:flex items-start gap-4 pl-4">
         <Image
