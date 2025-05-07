@@ -116,7 +116,7 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/me.jpg"
+            src="/me.png"
             priority
             fill
             alt="Riduan's photo"
