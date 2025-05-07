@@ -33,7 +33,7 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-          I'm a Computer Science & Engineering undergraduate specializing in Web Development, passionate about building intuitive, responsive web applications. As a Frontend Developer, I create user-focused interfaces and continuously explore new tech stacks across both frontend and backend.
+            I&apos;m a Computer Science & Engineering undergraduate specializing in Web Development, passionate about building intuitive, responsive web applications. As a Frontend Developer, I create user-focused interfaces and continuously explore new tech stacks across both frontend and backend.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
             Wanna learn more? Here&apos;s <br className="hidden md:block" />
@@ -76,7 +76,7 @@ export default function About() {
           <div>
             <AnimatedTitle
               wordSpace={"mr-[0.5ch]"}
-              charSpace={"mr-[0.001em]"}
+              charSpace={"mr/[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
               Backend Tools
