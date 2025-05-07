@@ -60,7 +60,7 @@ export default function Hero() {
   return (
     <section
       ref={ref}
-      className="pt-64 sm:pt-20 flex flex-col sm:flex-row h-dvh items-center gap-6 sm:justify-between"
+      className="pt-32 sm:pt-20 flex flex-col sm:flex-row h-dvh items-center gap-6 sm:justify-between"
       id="home"
     >
       <div className="text sm:w-[60%]">
