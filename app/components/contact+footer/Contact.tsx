@@ -48,14 +48,14 @@ export default function Contact() {
 
     emailjs
       .send(
-        `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
-        `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`,
+        process.env.NEXT_PUBLIC_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID!,
         {
           userName: data.userName,
           userEmail: data.userEmail,
           userMessage: data.userMessage,
         },
-        `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
+        process.env.NEXT_PUBLIC_PUBLIC_KEY!
       )
       .then(
         () => {
@@ -74,7 +74,7 @@ export default function Contact() {
           setTimeout(() => setFormDisplay(!formDisplay), 5000);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.error("FAILED...", error); // Log the full error object
           toast.error("Message not sent, check your network", {
             position: "bottom-left",
             autoClose: 3000,
