@@ -39,15 +39,15 @@ export default function Works() {
       stack: ["react", "javascript", "tailwindcss", "firebase"],
       img: "/orebi.png",
     },
-    // {
-    //   title: "Multi-step form",
-    //   gitLink: "",
-    //   liveLink: "",
-    //   about:
-    //     "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-    //   stack: ["html", "sass", "javascript", "ms clarity"],
-    //   img: "/multistep.svg",
-    // },
+    {
+      title: "Admin Dashboard ",
+      gitLink: "https://github.com/smRid/OrbitDash",
+      liveLink: "https://modern-dashboard-seven.vercel.app/",
+      about:
+        "a responsive Modern Dashboard UI built with React.js, designed for data-driven applications",
+      stack: ["React", "tailwindcss", "Recharts", "React Router"],
+      img: "/dashboard.png",
+    },
   ];
 
   const { ref, inView } = useInView({
