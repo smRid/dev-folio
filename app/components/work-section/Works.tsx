@@ -44,7 +44,7 @@ export default function Works() {
       gitLink: "https://github.com/smRid/OrbitDash",
       liveLink: "https://modern-dashboard-seven.vercel.app/",
       about:
-        "a responsive Modern Dashboard UI built with React.js, designed for data-driven applications",
+        "A responsive Modern Dashboard UI built with React.js, designed for data-driven applications. This project features an intuitive user interface, real-time updates, and customizable widgets for seamless analytics and data visualization.",
       stack: ["React", "tailwindcss", "Recharts", "React Router"],
       img: "/dashboard.png",
     },
