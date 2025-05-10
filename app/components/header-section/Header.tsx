@@ -17,8 +17,8 @@ export default function Header() {
         <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-linear-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
           <Image
             src="/LOGO.png"
-            width={16}
-            height={20}
+            width={20}
+            height={26}
             alt="logo"
             className="select-none"
           />

@@ -46,7 +46,10 @@ export default function FolioCard({
           img === "/chatapp2.png" ? "object-contain h-auto max-h-[320px]" : 
           img === "/x-clone.png" ? "object-contain h-auto max-h-[320px]" : 
           img === "/orebi.png" ? "object-contain h-auto max-h-[320px]" :
+
+          img === "/dashboard.png" ? "object-contain h-auto max-h-[320px]" :
           ""
+          
           
           
         }`}
