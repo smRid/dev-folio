@@ -31,13 +31,13 @@ export default function Works() {
       img: "/x-clone.png",
     },
     {
-      title: "Orebi Ecommerce",
-      gitLink: "https://github.com/smRid/Orebi-Ecommerce",
-      liveLink: "https://orebi-ecommerce-seven.vercel.app/",
+      title: "Ecommerce  App",
+      gitLink: "https://github.com/smRid/E-commerce-store-mern",
+      liveLink: "https://shopzi-app.onrender.com/",
       about:
-        "Orebi Ecommerce is a modern, full-featured e-commerce platform that provides a seamless shopping experience for customers and powerful tools for store owners to manage their online business.",
-      stack: ["react", "javascript", "tailwindcss", "firebase"],
-      img: "/orebi.png",
+        "A full-featured and modern E-Commerce web application featuring Redis for advanced caching and performance optimization, and Stripe for secure, production-ready payment processing.",
+      stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
+      img: "/shopzi.png",
     },
     {
       title: "Admin Dashboard ",

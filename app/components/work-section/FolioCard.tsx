@@ -36,23 +36,12 @@ export default function FolioCard({
       className={`w-full rounded-[20px] std-backdrop-blur bg-linear-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 items-start lg:grid-cols-12 xl:flex gap-5 xl:gap-10 p-6 duration-700 ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
-    >
-      <Image
+    >      <Image
         src={img}
         width={420}
         height={700}
         alt="work"
-        className={`rounded-[10px] w-full lg:col-span-5 ${
-          img === "/chatapp2.png" ? "object-contain h-auto max-h-[320px]" : 
-          img === "/x-clone.png" ? "object-contain h-auto max-h-[320px]" : 
-          img === "/orebi.png" ? "object-contain h-auto max-h-[320px]" :
-
-          img === "/dashboard.png" ? "object-contain h-auto max-h-[320px]" :
-          ""
-          
-          
-          
-        }`}
+        className={`rounded-[10px] w-full lg:col-span-5 object-contain h-auto max-h-[320px]`}
       />
       <div className="flex flex-col gap-4 lg:col-span-7">
         <div className="flex items-center justify-between">
