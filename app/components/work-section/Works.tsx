@@ -17,7 +17,7 @@ export default function Works() {
       gitLink: "https://github.com/smRid/Real-time-Chat-App",
       liveLink: "https://chat-app-rt-4jo9.onrender.com",
       about:
-        "A full-stack Realtime Chat Application built with real-time messaging. The app features user authentication, real-time communication, and a fully responsive UI optimized for both desktop and mobile devices.",
+        "Real-time Chat Application built with live messaging capabilities. The app features user authentication, real-time communication, and a fully responsive UI optimized for both desktop and mobile devices.",
       stack: ["react.js",  "tailwindcss", "daisyUI ",  "express.js", "socket.io" , "mongodb"],
       img: "/chatapp2.png",
     },
@@ -26,7 +26,7 @@ export default function Works() {
       gitLink: "https://github.com/smRid/Twitter-Clone",
       liveLink: "https://twitter-clone-4s7l.onrender.com",
       about:
-        "A modern, full-featured Twitter clone built with the MERN stack. Includes JWT authentication, post creation, likes, comments, profile editing, image uploads via Cloudinary, and real-time notifications — all in a clean, mobile-responsive UI.",
+        "Full-featured Twitter clone built with the MERN stack. Includes JWT authentication, post creation, likes, comments, profile editing, image uploads via Cloudinary, and real-time notifications, mobile-responsive UI.",
         stack: ["react.js",  "tailwindcss", "daisyUI ", "TanStack",  "express.js" , "mongodb"],
       img: "/x-clone.png",
     },
@@ -35,7 +35,7 @@ export default function Works() {
       gitLink: "https://github.com/smRid/E-commerce-store-mern",
       liveLink: "https://shopzi-app.onrender.com/",
       about:
-        "A full-featured and modern E-Commerce web application featuring Redis for advanced caching and performance optimization, and Stripe for secure, production-ready payment processing.",
+        "Modern E-Commerce web app with Redis for high-performance caching and Stripe for secure payments. Features include a full storefront, shopping cart, checkout, user authentication, and an admin dashboard for managing products, orders, and users.",
       stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
       img: "/shopzi.png",
     },
@@ -44,7 +44,7 @@ export default function Works() {
       gitLink: "https://github.com/smRid/OrbitDash",
       liveLink: "https://modern-dashboard-seven.vercel.app/",
       about:
-        "A responsive Modern Dashboard UI built with React.js, designed for data-driven applications. This project features an intuitive user interface, real-time updates, and customizable widgets for seamless analytics and data visualization.",
+        "Responsive Admin Dashboard UI built with React.js, designed for data-driven applications. This project features an intuitive user interface, real-time updates, and customizable widgets for seamless analytics and data visualization.",
       stack: ["React", "tailwindcss", "Recharts", "React Router"],
       img: "/dashboard.png",
     },
