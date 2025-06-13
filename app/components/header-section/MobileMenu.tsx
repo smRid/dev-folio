@@ -50,7 +50,7 @@ export default function MobileMenu({
 
       <div className="flex flex-col gap-3 z-20 items-center justify-center">
         <Link
-          className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
+          className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-[#162447]"
           target="_blank"
           href="https://www.linkedin.com/in/smriduan/"
           data-blobity-radius="10"
