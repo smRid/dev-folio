@@ -15,7 +15,7 @@ export default function Works() {
     {
       title: "Chat app",
       gitLink: "https://github.com/smRid/Real-time-Chat-App",
-      liveLink: "https://chat-app-rt-4jo9.onrender.com",
+      liveLink: "",
       about:
         "Real-time Chat Application built with live messaging capabilities. The app features user authentication, real-time communication, and a fully responsive UI optimized for both desktop and mobile devices.",
       stack: ["react.js",  "tailwindcss", "daisyUI ",  "express.js", "socket.io" , "mongodb"],
@@ -24,7 +24,7 @@ export default function Works() {
     {
       title: "Twitter Clone",
       gitLink: "https://github.com/smRid/Twitter-Clone",
-      liveLink: "https://twitter-clone-4s7l.onrender.com",
+      liveLink: "https://x-clone-smr.onrender.com/",
       about:
         "Full-featured Twitter clone built with the MERN stack. Includes JWT authentication, post creation, likes, comments, profile editing, image uploads via Cloudinary, and real-time notifications, mobile-responsive UI.",
         stack: ["react.js",  "tailwindcss", "daisyUI ", "TanStack",  "express.js" , "mongodb"],
@@ -33,7 +33,7 @@ export default function Works() {
     {
       title: "Ecommerce  App",
       gitLink: "https://github.com/smRid/E-commerce-store-mern",
-      liveLink: "https://shopzi-app.onrender.com/",
+      liveLink: "https://shopzi.onrender.com/",
       about:
         "Modern E-Commerce web app with Redis for high-performance caching and Stripe for secure payments. Features include a full storefront, shopping cart, checkout, user authentication, and an admin dashboard for managing products, orders, and users.",
       stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
