@@ -15,7 +15,7 @@ export default function Works() {
     {
       title: "Chat app",
       gitLink: "https://github.com/smRid/Real-time-Chat-App",
-      liveLink: "",
+      liveLink: "https://chatline-smr.vercel.app/",
       about:
         "Real-time Chat Application built with live messaging capabilities. The app features user authentication, real-time communication, and a fully responsive UI optimized for both desktop and mobile devices.",
       stack: ["react.js",  "tailwindcss", "daisyUI ",  "express.js", "socket.io" , "mongodb"],
