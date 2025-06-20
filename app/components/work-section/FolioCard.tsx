@@ -51,9 +51,13 @@ export default function FolioCard({
           <div className="flex gap-3 md:gap-4 text-2xl sm:text-3xl xl:text-4xl">
             <Link
               href={liveLink}
-              className="rounded-full bg-icon-radial p-3"
+              className={`rounded-full bg-icon-radial p-3 ${
+                !liveLink ? "pointer-events-none opacity-30" : ""
+              }`}
               target="_blank"
               aria-label="View Live Demo"
+              tabIndex={!liveLink ? -1 : undefined}
+              aria-disabled={!liveLink ? true : undefined}
             >
               <Icon icon="line-md:external-link-rounded" />
             </Link>

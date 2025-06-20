@@ -40,6 +40,24 @@ export default function Works() {
       img: "/shopzi.png",
     },
     {
+      title: "Doctor Appointment Platform ",
+      gitLink: "https://github.com/smRid/Doctors-Appointment-Platform",
+      liveLink: "https://medimeet-smr.vercel.app/",
+      about:
+        "A scalable doctor appointment platform designed to provide a seamless experience for Admins, Doctors, and Patients through tailored, role-based interfaces. It features dynamic scheduling, secure authentication, and integrated video consultations, enabling real-time, in-browser video calls between doctors and patients",
+      stack: ["Nextjs", "Tailwind CSS", "Clerk", "PostgreSQL", "Prisma", "Zod", "Vonage Video API"],
+      img: "/DAS.png",
+    },
+    {
+      title: "Expense Wallet App",
+      gitLink: "https://github.com/smRid/expense-wallet-app",
+      liveLink: "",
+      about:
+        "A secure and intuitive Expense Tracker mobile app that helps you track daily expenses, monitor wallet balance, and manage your finances with real-time insights. Stay organized and in control of your budget -anytime, anywhere.",
+      stack: ["React Native", "Expo", "Clerkauth", "Node.js", "Express.js", "Redis", "PostgreSQL"],
+      img: "/ETS2.png",
+    },
+    {
       title: "Admin Dashboard ",
       gitLink: "https://github.com/smRid/OrbitDash",
       liveLink: "https://modern-dashboard-seven.vercel.app/",
