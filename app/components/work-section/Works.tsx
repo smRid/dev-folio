@@ -28,7 +28,7 @@ export default function Works() {
       liveLink: "https://shopzi.onrender.com/",
       about:
         "Modern E-Commerce web app with Redis for high-performance caching and Stripe for secure payments. Features include a full storefront, shopping cart, checkout, user authentication, and an admin dashboard for managing products, orders, and users.",
-      stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
+      stack: ["Nextjs", "Tailwind CSS", "Clerk", "PostgreSQL", "Graphql", "Openai" ],
       img: "/shopzi.png",
     },
     {
