@@ -28,7 +28,7 @@ export default function Works() {
       liveLink: "https://shopzi.onrender.com/",
       about:
         "Modern E-Commerce web app with Redis for high-performance caching and Stripe for secure payments. Features include a full storefront, shopping cart, checkout, user authentication, and an admin dashboard for managing products, orders, and users.",
-      stack: ["Nextjs", "Tailwind CSS", "Clerk", "PostgreSQL", "Graphql", "Openai" ],
+      stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
       img: "/shopzi.png",
     },
     {
@@ -37,7 +37,7 @@ export default function Works() {
       liveLink: "https://aidlybot.vercel.app//",
       about:
         "Aidly Bot is a customizable AI assistant platform built with Next.js 15, enabling smart, human-like conversations for support, guidance, and real-time help. Ideal for internal tools, customer service, education, and more—scalable, reliable, and easy to deploy",
-      stack: ["React", "tailwindcss", "Recharts", "React Router"],
+      stack: ["Nextjs", "Tailwind CSS", "Clerk", "PostgreSQL", "Graphql", "Openai"],
       img: "/chatbot.png",
     },
     {
