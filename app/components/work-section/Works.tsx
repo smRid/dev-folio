@@ -21,15 +21,7 @@ export default function Works() {
       stack: ["react.js",  "tailwindcss", "daisyUI ",  "express.js", "socket.io" , "mongodb"],
       img: "/chatapp2.png",
     },
-    {
-      title: "Twitter Clone",
-      gitLink: "https://github.com/smRid/Twitter-Clone",
-      liveLink: "https://x-clone-smr.onrender.com/",
-      about:
-        "Full-featured Twitter clone built with the MERN stack. Includes JWT authentication, post creation, likes, comments, profile editing, image uploads via Cloudinary, and real-time notifications, mobile-responsive UI.",
-        stack: ["react.js",  "tailwindcss", "daisyUI ", "TanStack",  "express.js" , "mongodb"],
-      img: "/x-clone.png",
-    },
+
     {
       title: "Ecommerce  App",
       gitLink: "https://github.com/smRid/E-commerce-store-mern",
@@ -38,6 +30,15 @@ export default function Works() {
         "Modern E-Commerce web app with Redis for high-performance caching and Stripe for secure payments. Features include a full storefront, shopping cart, checkout, user authentication, and an admin dashboard for managing products, orders, and users.",
       stack: ["react.js", "tailwindcss", "express.js", "stripe","mongodb" , "redis" ],
       img: "/shopzi.png",
+    },
+    {
+      title: "AI Assistant Chatbot",
+      gitLink: "https://github.com/smRid/AI-Assistant-Chat-Bot",
+      liveLink: "https://aidlybot.vercel.app//",
+      about:
+        "Aidly Bot is a customizable AI assistant platform built with Next.js 15, enabling smart, human-like conversations for support, guidance, and real-time help. Ideal for internal tools, customer service, education, and more—scalable, reliable, and easy to deploy",
+      stack: ["React", "tailwindcss", "Recharts", "React Router"],
+      img: "/chatbot.png",
     },
     {
       title: "Doctor Appointment Platform ",
@@ -49,6 +50,15 @@ export default function Works() {
       img: "/DAS.png",
     },
     {
+      title: "Twitter Clone",
+      gitLink: "https://github.com/smRid/Twitter-Clone",
+      liveLink: "https://x-clone-smr.onrender.com/",
+      about:
+        "Full-featured Twitter clone built with the MERN stack. Includes JWT authentication, post creation, likes, comments, profile editing, image uploads via Cloudinary, and real-time notifications, mobile-responsive UI.",
+        stack: ["react.js",  "tailwindcss", "daisyUI ", "TanStack",  "express.js" , "mongodb"],
+      img: "/x-clone.png",
+    },
+    {
       title: "Expense Wallet App",
       gitLink: "https://github.com/smRid/expense-wallet-app",
       liveLink: "",
@@ -57,15 +67,7 @@ export default function Works() {
       stack: ["React Native", "Expo", "Clerkauth", "Node.js", "Express.js", "Redis", "PostgreSQL"],
       img: "/ETS2.png",
     },
-    {
-      title: "Admin Dashboard ",
-      gitLink: "https://github.com/smRid/OrbitDash",
-      liveLink: "https://modern-dashboard-seven.vercel.app/",
-      about:
-        "Responsive Admin Dashboard UI built with React.js, designed for data-driven applications. This project features an intuitive user interface, real-time updates, and customizable widgets for seamless analytics and data visualization.",
-      stack: ["React", "tailwindcss", "Recharts", "React Router"],
-      img: "/dashboard.png",
-    },
+  
   ];
 
   const { ref, inView } = useInView({
