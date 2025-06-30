@@ -54,17 +54,6 @@ export default function Header() {
               Contact
             </Link>
           </ul>
-          <div className="gap-5 text-xl hidden sm:flex">
-            <Link target="_blank" href="https://www.linkedin.com/in/smriduan/">
-              <Icon icon="hugeicons:linkedin-01" />
-            </Link>
-            <Link target="_blank" href="https://github.com/smRid">
-              <Icon icon="hugeicons:github" />
-            </Link>
-            <Link target="_blank" href="https://x.com/OmorRiduan32947">
-              <Icon icon="akar-icons:x-fill" />
-            </Link>
-          </div>
         </div>
       </div>
 

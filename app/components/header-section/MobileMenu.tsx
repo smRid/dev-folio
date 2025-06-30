@@ -16,7 +16,7 @@ export default function MobileMenu({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="grid z-10 items-center grid-cols-2 sm:hidden px-6 py-5 fixed top-12 rounded-2xl bg-[#162447] max-w-[90%] w-full mt-12 sm:mt-16"
+      className="flex z-10 items-center justify-center sm:hidden px-6 py-5 fixed top-12 rounded-2xl bg-[#162447] max-w-[90%] w-full mt-12 sm:mt-16"
     >
       <ul
         className="flex flex-col gap-4 lg:gap-12 text-white/25"
@@ -47,36 +47,6 @@ export default function MobileMenu({
           Contact
         </Link>
       </ul>
-
-      <div className="flex flex-col gap-3 z-20 items-center justify-center">
-        <Link
-          className="p-4 flex-1 flex justify-center w-full rounded-xl h-fit text-4xl visited:bg-[#E3D3BE] bg-[#162447]"
-          target="_blank"
-          href="https://www.linkedin.com/in/smriduan/"
-          data-blobity-radius="10"
-        >
-          <Icon icon="hugeicons:linkedin-01" />
-        </Link>
-
-        <div className="flex gap-3 w-full">
-          <Link
-            className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
-            target="_blank"
-            href="https://github.com/smRid"
-            data-blobity-radius="10"
-          >
-            <Icon icon="hugeicons:github" />
-          </Link>
-          <Link
-            className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-linear-to-r from-[#d9d9d915] to-[#7373731f] std-backdrop-blur"
-            target="_blank"
-            href="https://x.com/OmorRiduan32947"
-            data-blobity-radius="10"
-          >
-            <Icon icon="akar-icons:x-fill" />
-          </Link>
-        </div>
-      </div>
     </motion.div>
   );
 }
