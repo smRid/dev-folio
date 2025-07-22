@@ -23,6 +23,16 @@ export default function Works() {
     },
 
     {
+      title: "AI-Powered SAAS App",
+      gitLink: "https://github.com/smRid/ai-saas-app",
+      liveLink: "https://quickgenai-smr.vercel.app",
+      about:
+        "Quickgen.ai is an AI SaaS platform that delivers a powerful suite of intelligent tools for content creation, advanced image editing, and resume analysis, all seamlessly integrated within a responsive dashboard designed for efficiency and ease of use.",
+      stack: ["React", "Tailwind", "Clerkauth", "Node.js", "Express.js", "PostgreSQL", "OpenAI"],
+      img: "/rsz_preview.png",
+    },
+
+    {
       title: "Ecommerce  App",
       gitLink: "https://github.com/smRid/E-commerce-store-mern",
       liveLink: "https://shopzi.onrender.com/",
