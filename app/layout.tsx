@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sarker Mohammad Riduan — Software Engineer",
     description:
-      "Frontend Engineer formerly at Bluechip Technologies, passionate about crafting next-gen software and creative websites. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+      "",
     url: "",
     siteName: "",
     images: [
@@ -51,9 +51,6 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Sarker Mohammad Riduan — Software Engineer",
-    description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@smRid",
     images: [""],
   },
   robots: {
