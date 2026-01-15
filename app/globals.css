@@ -122,3 +122,40 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+
+/* Cross-browser compatibility fixes */
+/* Firefox flexbox/grid fixes */
+@supports (-moz-appearance: none) {
+  /* Firefox-specific fixes */
+  img {
+    min-width: 0;
+    flex-shrink: 0;
+  }
+  
+  /* Ensure grid items don't overflow in Firefox */
+  [class*="grid"] > * {
+    min-width: 0;
+    min-height: 0;
+  }
+}
+
+/* Universal flexbox fixes for cross-browser compatibility */
+.flex > img,
+.flex > picture,
+.flex > video {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Ensure grid children don't overflow */
+[class*="grid-cols"] > * {
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Image aspect ratio consistency across browsers */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+

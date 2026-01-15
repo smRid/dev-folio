@@ -33,17 +33,21 @@ export default function FolioCard({
   return (
     <div
       ref={ref}
-      className={`w-full rounded-[20px] std-backdrop-blur bg-linear-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 items-start lg:grid-cols-12 xl:flex gap-5 xl:gap-10 p-6 duration-700 ${
-        inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-      }`}
-    >      <Image
-        src={img}
-        width={420}
-        height={700}
-        alt="work"
-        className={`rounded-[10px] w-full lg:col-span-5 object-contain h-auto max-h-[320px]`}
-      />
-      <div className="flex flex-col gap-4 lg:col-span-7">
+      className={`w-full rounded-[20px] std-backdrop-blur bg-linear-to-r from-[#d9d9d91f] to-[#7373731f] grid grid-cols-1 lg:grid-cols-12 items-stretch gap-5 xl:gap-10 p-6 duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+        }`}
+    >
+      {/* Image container with proper cross-browser sizing */}
+      <div className="lg:col-span-5 flex items-center justify-center min-w-0">
+        <Image
+          src={img}
+          width={420}
+          height={280}
+          alt="work"
+          className="rounded-[10px] w-full h-auto max-h-[320px] object-contain"
+          style={{ minWidth: 0 }}
+        />
+      </div>
+      <div className="flex flex-col gap-4 lg:col-span-7 min-w-0">
         <div className="flex items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">
             {title}
@@ -51,9 +55,8 @@ export default function FolioCard({
           <div className="flex gap-3 md:gap-4 text-2xl sm:text-3xl xl:text-4xl">
             <Link
               href={liveLink}
-              className={`rounded-full bg-icon-radial p-3 ${
-                !liveLink ? "pointer-events-none opacity-30" : ""
-              }`}
+              className={`rounded-full bg-icon-radial p-3 ${!liveLink ? "pointer-events-none opacity-30" : ""
+                }`}
               target="_blank"
               aria-label="View Live Demo"
               tabIndex={!liveLink ? -1 : undefined}
