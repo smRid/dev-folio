@@ -40,7 +40,7 @@ export default function About() {
             <Link
               className="underline"
               href={
-                "https://drive.google.com/file/d/1fV1-h_MP-pTVil7L9Uq_VXn_jPp26IB-/view?usp=sharing"
+                "https://drive.google.com/file/d/1NC-nDxS2r9mvf9V8O9cddskG1JH0v2f6/view?usp=sharing"
               }
             >
               my résumè
